@@ -27,6 +27,11 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+img{
+  object-fit: cover;
+  object-position: center;
+}
+
 /* DONT DELETE!!!! */
 section,
 .first-img-sect,
