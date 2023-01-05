@@ -1,0 +1,139 @@
+:root {
+    --dark-green: #01200f;
+    --normal-green: #1e4f2a;
+    --mid-green: #3a7d44;
+    --dark-yellow: #fdc500;
+    --light-yellow: #ffd500;
+  
+    --main-blue: #0874da;
+    --mid-blue: #6ac5f0;
+    --tag-blue: #045676;
+    --tag-red: #e23912;
+  
+    --light-blue: #d2ebf2;
+    --mid-yellow: #dd9746;
+    --footer-blue: #bac9de;
+    --grey: #6c757d;
+    --white: #e9ecef;
+  }
+
+.part {
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sp-header{
+    border-radius: 3px;
+    font-size: 1.7rem;
+    background-color: white;
+    text-align: center;
+    padding: 7px 0 7px 0;
+    letter-spacing: .5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cat-head{
+  background-color: var(--tag-blue);
+  color: white;
+  letter-spacing: 1.2px;
+  padding: 5px 0 5px 30px ;
+  margin-top: 0px;
+}
+
+.partt-1{
+  text-align: left;
+}
+
+.off-stores{
+  text-align: center;
+}
+
+
+.lmtd-stock{
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  overflow-x: scroll;
+}
+
+.lmtd-6-div, .lmtd-10-div{
+  min-width: 120px;
+}
+
+.lmtd-6, .lmtd-10{
+  margin: 0 30px;
+}
+
+.lmtd-6{
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.lmtd-3{
+  grid-template-columns: repeat(3, 1fr);
+  /* padding: 0 30px; */
+}
+
+.lmtd-10{
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.lmtd-img-grid{
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+}
+
+.discount-price{
+  font-weight: bold;
+}
+
+.old-price{
+  font-size: .8rem;
+  color: var(--grey);
+}
+
+/* THREE-GRID-PART */
+.lmtd-3-div{
+  min-width: 240px;
+  min-height: 300px;
+  background: linear-gradient(130deg, var(--tag-blue) 50%, var(--dark-yellow) 50%);
+  font-size: 1.2rem;
+}
+
+.lmtd-3-div, .lmtd-stock{
+  overflow-y: hidden;
+}
+
+.lmtd-head-cont{
+  margin-left: 10px;
+}
+
+.lmtd-3-head1, .lmtd-3-head2, .lmtd-3-head3{
+  color: var(--white);
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  text-align: left;
+}
+
+/* CONTAINER OF THE TWO IMAGES */
+.img-lmtd-disc-cont{
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+  position: relative;
+}
+
+.disc-img-tag{
+  width: 20%;
+  height: 50%;
+}
+
+.disc-img-tag1{
+  width: 40%;
+  height: 90%;
+  position: absolute;
+  right: 0px;
+  margin-top: -30px;
+}
+
+

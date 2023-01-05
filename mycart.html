@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="shortcut icon" href="./Images/Logo/d.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://use.fontawesome.com/your-embed-code.js"></script>
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/cart.css">
+    <link rel="stylesheet" href="./CSS/supermarket.css.css">
+</head>
+<body>
+    <div class="cart-container">
+      <!-- NAVBAR -->
+      <header class="header" id="header">
+        <nav class="navbar nav-container">
+          <a
+            class="a-link brand"
+            href="./index.html"
+            style="text-decoration: none"
+            ><img
+              src="./Images/Icons/palm-oil (1).png"
+              alt=""
+              width="30px"
+              height="30px"
+            /><b>DASH</b></a
+          >
+          <div class="burger" id="burger">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </div>
+          <span class="overlay"></span>
+          <div class="menu" id="menu">
+            <ul class="menu-inner" style="text-decoration: none">
+              <li class="menu-item home-click" >
+                <a
+                  class="a-link"
+                  class="menu-link"
+                  href="index.html"
+                  style="text-decoration: none"
+                >
+                  <img class="nav-i-a"
+                    src="./Images/Icons/house.png"
+                    width="20px"
+                    height="20px"
+                  /> <b>Home</b>
+                  <img 
+                    src="./Images/Icons/down-arrow (1).png"
+                    width="20px"
+                    height="20px"
+                    class="arr-d arr-1"
+                  />
+                </a>
+              </li>
+              <li class="menu-item acct-click">
+                <a
+                  class="a-link"
+                  class="menu-link"
+                  href="#"
+                  style="text-decoration: none"
+                >
+                  <img class="nav-i-a"
+                    src="./Images/Icons/woman.png"
+                    width="20px"
+                    height="20px"
+                  />
+                  <b>Account</b>
+                  <img
+                    src="./Images/Icons/down-arrow (1).png"
+                    width="20px"
+                    height="20px"
+                    class="arr-d arr-2"
+                  />
+                </a>
+              </li>
+
+              <li class="menu-item help-click">
+                <a
+                  class="a-link"
+                  class="menu-link"
+                  href="#"
+                  style="text-decoration: none"
+                  ><img class="nav-i-a"
+                    src="./Images/Icons/problem-solving.png"
+                    width="20px"
+                    height="20px" />
+                    <b>Help</b>
+                    <img
+                    src="./Images/Icons/down-arrow (1).png"
+                    width="20px"
+                    height="20px"
+                    class="arr-d arr-3"
+                />
+                  </a>
+              </li>
+
+              <li class="menu-item cart-click">
+                <a
+                  class="a-link"
+                  class="menu-link"
+                  href="mycart.html"
+                  style="text-decoration: none"
+                  >
+                  <img class="nav-i-a"
+                    src="./Images/Icons/carts.png"
+                    width="20px"
+                    height="20px" /><b>My Cart</b>
+                  </a>
+              </li>
+            </ul>
+          </div>
+          <span class="search-ii"
+            ><img
+              src="./Images/Icons/zoom-out.png"
+              width="25px"
+              height="25px"
+              class="bx bx-search search-toggle"
+          /></span>
+          <div class="search-block">
+            <form class="search-form">
+              <span
+                ><img
+                  src="./Images/Icons/go-to-work.png"
+                  width="30px"
+                  height="30px"
+                  class="bx bx-arrow-back search-cancel"
+              /></span>
+              <input
+                type="search"
+                name="search"
+                class="search-input"
+                placeholder="Search here..."
+              />
+            </form>
+          </div>
+        </nav>
+      </header>
+
+          <main class="cart-main main-part">
+            <!-- CART DETAILS SECTION -->
+            <div class="cart-dept ">
+                <div class="empty-cart-div ">
+                    <img src="./Images/Icons/add-to-basket.png" alt="" width="100px" height="100px" class="empt-cart-img">
+                    <br> 
+                    <h3>Your cart is empty! </h3>
+                    <p>Browse our categories and shop for your everyday items.</p>  <br>
+                    <a href="./index.html" class="start-shopping-btn">START SHOPPING</a>
+                </div>
+                    
+            </div>
+            <br><br>
+            <section class="save-furniture">
+              <h3 class="sharing-title">Recently Viewed</h3>
+              <div class="sf-grids" >
+                <div class="grid-sf s1 on">
+                  <img
+                    src="https://images.pexels.com/photos/3652097/pexels-photo-3652097.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                    class="img-grid-s-f"
+                  />
+                  <button href="" class="furniture-button">+ Add</button>
+                  <br />
+                  <br />
+                  <b class="s-f-heads">N199,999.99</b>
+                  <p class="p-sf">
+                    Ankara Moulded Chair with wooden legs- Set of 2.
+                  </p>
+                  <div class="sf-tag shipping-tag">1-day shipping</div>
+                </div>
+                <div class="grid-sf s2 on">
+                  <img
+                    src="https://images.pexels.com/photos/128402/pexels-photo-128402.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                    class="img-grid-s-f"
+                  />
+                  <button href="" class="furniture-button">+ Add</button>
+                  <br />
+                  <br />
+                  <b class="s-f-heads">N199,999.99</b>
+                  <p class="p-sf">
+                    Ankara Moulded Chair with wooden legs- Set of 2.
+                  </p>
+                  <div class="sf-tag shipping-tag">2-day shipping</div>
+                </div>
+                <div class="grid-sf s3 on">
+                  <img
+                    src="https://images.pexels.com/photos/47220/shoes-pregnancy-child-clothing-47220.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                    class="img-grid-s-f"
+                  />
+                  <button href="" class="furniture-button">+ Add</button>
+                  <br />
+                  <br />
+                  <b class="s-f-heads">N199,999.99</b>
+                  <p class="p-sf">
+                    Ankara Moulded Chair with wooden legs- Set of 2.
+                  </p>
+                  <div class="sf-tag shipping-tag">2-day shipping</div>
+                </div>
+                <div class="grid-sf on s4">
+                  <img
+                    src="https://images.pexels.com/photos/6316684/pexels-photo-6316684.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                    class="img-grid-s-f"
+                  />
+                  <button href="" class="furniture-button">+ Add</button>
+                  <br />
+                  <br />
+                  <b class="s-f-heads">N199,999.99</b>
+                  <p class="p-sf">
+                    Ankara Moulded Chair with wooden legs- Set of 2.
+                  </p>
+                  <div class="sf-tag shipping-tag">2-day shipping</div>
+                </div>
+                <div class="grid-sf on s5">
+                  <img
+                    src="https://images.pexels.com/photos/3850649/pexels-photo-3850649.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt=""
+                    class="img-grid-s-f"
+                  />
+                  <button href="" class="furniture-button">+ Add</button>
+                  <br />
+                  <br />
+                  <b class="s-f-heads">N199,999.99</b>
+                  <p class="p-sf">
+                    Ankara Moulded Chair with wooden legs- Set of 2.
+                  </p>
+                  <div class="sf-tag shipping-tag">2-day shipping</div>
+                </div>
+                <div class="grid-sf on s6">
+                  <img
+                    src="https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt=""
+                    class="img-grid-s-f"
+                  />
+                  <button href="" class="furniture-button">+ Add</button>
+                  <br />
+                  <br />
+                  <b class="s-f-heads">N199,999.99</b>
+                  <p class="p-sf">
+                    Ankara Moulded Chair with wooden legs- Set of 2.
+                  </p>
+                  <div class="sf-tag shipping-tag">2-day shipping</div>
+                </div>
+              </div>
+            </section>
+
+          </main> <br> <br>
+
+          <!-- FIRST FOOTER -->
+      <section class="feedback-footer">
+        <div>We'd love to hear what you think!</div>
+        <button>Give feedback</button>
+      </section>
+      <br />
+
+      <!-- MAIN FOOTER -->
+      <footer class="footer">
+        <div>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+        </div>
+        <div>© 2022 Dash. All Rights Reserved.</div>
+      </footer>
+    </div>
+    
+    <script src="./JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+  <!-- <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>  -->
+
+          <!-- MIAN SECTION OF CODE -->
+          <main class="main-part">
+            <!-- GALLERY SLIDER + FLASH PICK OF THE DAY -->
+            <div class="first-img-sect">
+                <div class="slide-show">Flash something
+                    <img src="" alt="" >
+                </div>
+                <div class="flash-pick">Flash something
+                    <img src="" alt="">
+                </div> 
+               
+            </div> <br>
+    
+        <!-- RESERVE PICKUP OR DELIVERY  -->
+        <section class="reserve-delivery">
+            <p class="reserve-delivery-p">Reserve pickup or delivery</p>
+            <button class="see-times-button">see times</button>
+        </section> <br>
+
+
+
+
+          <!-- RESERVE PICKUP OR DELIVERY  -->
+        <section class="reserve-delivery">
+            <p class="reserve-delivery-p">Reserve pickup or delivery</p>
+            <button class="see-times-button">see times</button>
+        </section> <br>
+
+            <!-- PICKUP AND DELIVERY, LOW PRICES, EERIE-SISTABLE SAVINGS -->
+            <section class="pickup-low-savings">
+                <div>
+                    <div>Pickup and delivery</div>
+                    <div>Popular Services</div>
+                </div>
+                <div>Low prices are here!</div>
+                <div>Eerie-sistible savings</div>
+            </section> <br>
+
+
+               <!-- <div class="slide-show">Flash something
+                    <img src="" alt="" >
+                </div>
+                <div class="flash-pick">Flash something
+                    <img src="" alt="">
+                </div>  -->
+
+
+
+/* .first-img-sect{
+    display: flex;
+}
+
+.first-img-sect div
+
+.slide-show, .flash-pick{
+    background-color: pink;
+}
+
+.slide-show{
+    flex: 60%;
+} */
+
+
+.hm-dd{
+    background-color: pink;
+    color: black;
+    /* display: none; */
+    /* overflow: auto; */
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.hm-dd a{
+    display: block;
+    padding: 12px 16px;
+}
+
+<hr style="padding: 0px; margin-top: -30px; color: aliceblue" />
