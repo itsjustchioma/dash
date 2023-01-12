@@ -37,16 +37,19 @@
   background-color: var(--tag-blue);
   color: white;
   letter-spacing: 1px;
-  padding: 0px 7px 0px 7px;
+  padding: 0px 10px 0px 10px;
   margin-top: 0px;
   display: flex;
   justify-content: space-between;
+}
+.cat-head h2 {
+  font-size: 1.1rem;
 }
 
 .see-all {
   text-decoration: none;
   color: white;
-  margin-top: 25px;
+  margin-top: 16px;
 }
 
 /* .see-all {
@@ -68,7 +71,7 @@
 
 .lmtd-stock {
   display: grid;
-  column-gap: 20px;
+  column-gap: 30px;
   row-gap: 20px;
   overflow-x: scroll;
 }
@@ -89,6 +92,7 @@
 
 .lmtd-3 {
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
   /* padding: 0 30px; */
 }
 
