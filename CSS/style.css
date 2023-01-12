@@ -196,7 +196,8 @@ main {
   .lmtd-stock {
     overflow: scroll;
   }
-  .sov1 {
+  .sov1,
+  .byc {
     display: none;
   }
 }
@@ -254,7 +255,7 @@ main {
   background-color: var(--footer-blue);
 }
 
-/* SAVE ON FURNITURE */
+/* SAVE ON FURNITURE GRIDS */
 .sf-grids {
   grid-template-columns: repeat(6, 1fr);
 }
@@ -262,7 +263,7 @@ main {
 .sf-grids {
   display: grid;
   grid-auto-rows: 430px;
-  column-gap: 20px;
+  column-gap: 50px;
   row-gap: 20px;
   background-color: white;
 }
@@ -449,3 +450,12 @@ main {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
+
+/* .see-all {
+  position: relative;
+  top: -13px;
+}
+.see-all2 {
+  position: absolute;
+  right: 0;
+} */
