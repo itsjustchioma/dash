@@ -1,11 +1,10 @@
 # DASH! 
 
 A website designed for all e-commerce consumers, DASH caters to everyone. 
-(still building-all features havent been implemented yet)
 
 Click [here](https://itsjustchioma.github.io/dash/) to preview.
 
-## Features of DASH!
+## Features of DASH! (Not all have been implemented)
 1. Responsive website design
 2. Login authentication
 3. User-friendly navigation
@@ -22,4 +21,3 @@ Click [here](https://itsjustchioma.github.io/dash/) to preview.
 - CSS
 - Javascript
 - Github
--
